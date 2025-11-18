@@ -1,0 +1,20 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "yarn build",
+  "installCommand": "yarn install",
+  "devCommand": "yarn dev",
+  "regions": ["sin1"],
+  "env": {
+    "NEXT_PUBLIC_API_BASE_URL": "https://api.openai.com/v1",
+    "NEXT_PUBLIC_API_KEY": "",
+    "NEXT_PUBLIC_TEST_MODEL": "deepseek-v3",
+    "NEXT_PUBLIC_EVAL_MODEL": "gpt-4o"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_API_BASE_URL": "https://api.openai.com/v1",
+      "NEXT_PUBLIC_TEST_MODEL": "deepseek-v3",
+      "NEXT_PUBLIC_EVAL_MODEL": "gpt-4o"
+    }
+  }
+}

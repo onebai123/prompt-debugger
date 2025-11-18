@@ -1,0 +1,48 @@
+{
+  "name": "prompt-debugger",
+  "version": "1.0.0",
+  "description": "AI提示词测试与优化工具 - 系统化测试、评估和优化AI提示词",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "antd": "^5.20.0",
+    "@ant-design/icons": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0"
+  },
+  "keywords": [
+    "ai",
+    "prompt",
+    "test",
+    "debug",
+    "optimize",
+    "chatgpt",
+    "gemini",
+    "llm"
+  ],
+  "author": "Prompt Debugger Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onebai123/prompt-debugger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onebai123/prompt-debugger/issues"
+  },
+  "homepage": "https://github.com/onebai123/prompt-debugger#readme"
+}
