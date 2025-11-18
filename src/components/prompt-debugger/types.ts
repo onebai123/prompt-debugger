@@ -2,7 +2,7 @@
  * 批量测试系统类型定义
  */
 
-import { Message } from '../api'
+import { Message } from '../../lib/api'
 
 /** 测试用例 */
 export interface TestCase {
